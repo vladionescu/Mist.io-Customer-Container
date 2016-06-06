@@ -1,0 +1,16 @@
+[Unit]
+Description=Mist.io docker container
+After=libvirtd.service
+After=docker.service
+
+[Service]
+RemainAfterExit=yes
+
+#User=mist
+#ExecStartPre=chown -R mist:mist /data/docker/mist
+ExecStart=/usr/bin/docker run -v /data/docker/mist:/home/mist/mist.io/data -d --restart on-failure:10 -p 80:8000 --name mist_mgmt mist_persist
+ExecStop=/usr/bin/docker stop mist_mgmt
+ExecStopPost=/usr/bin/docker rm mist_mgmt
+
+[Install]
+WantedBy=multi-user.target
