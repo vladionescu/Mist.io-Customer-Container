@@ -1,0 +1,139 @@
+clouds:
+  2zMD9RUvGcLrPzpn85R18mSSQfh6:
+    apikey: root
+    apisecret: '-----BEGIN RSA PRIVATE KEY-----
+
+      MIIEpAIBAAKCAQEAtfR03+C5A+7PbqQ4GFJt+xsymPMvYRC0O/B6vtfiiEOTsYkK
+
+      ahf2CtbGmlyQYBrY5QvgOP2PmJ7/UbtuhSH9jVnz6qqjbh8CeMlkelUYhhCyhunV
+
+      5LCsQKN6kpIUAsMJXxW0F1lyfN7mqL0Z9O34Izieg7rbLoI5KhRh4M91Xa8Lv3dN
+
+      d/j9Bzy+OOw7m/0LOg3poxMw6Hll0Rcfn6ZVTE+yVR4X7eS93PqSYoDBQNcPO0AO
+
+      gP4aQKnXzznW6ghP0jnYtd1qWwxJ3b1hLo7VHmVVX0WqhaFZPxDFwKhw4EXI0n6s
+
+      w1ycb0MU8e4FrM7o/SeWvKxo1jTPu0sg4U8g9QIDAQABAoIBAQCof3LkB+UNwU8S
+
+      tLzFuT/j8/HNNhbAGontn+rrZFyBt6LEG5YrXXkZ3H8aX3HLrdEBexfvbtBVk5f5
+
+      Bkt4ultlVNHOlKq3xbuyQz3rE3acYEYTLeRH3VwGl91gcipZzGeXSC/4F3swK/MK
+
+      e+PXr6/EXiBc+OMUlL9/OlTRrQyQ7YN3hzgnmMZVUSq8lfxykqRfYUaFol7LdJfh
+
+      dWWSQXCkCFTMOP+UxW+DMFm6pUOpwytIOVEx26aVu7Oww4SHVPlN3JNYMrleE8Tp
+
+      gOWkym2O6IZHpS6lDokmsnlf84kdaf9efuM/RE2eMeMm6e7KSPFeFoNK31KSpekX
+
+      n2dS7aABAoGBANuAzsi8EOfcnr8Jt2oNfMmOxdjxQG3q/0e5X0wzNL8rx6/6gxIL
+
+      zanYd+ZTDhc0VHK4v7ELHYCA1cufNbc182n9XzJ/w/GbU2jIFiMUkZvZmR/Zjh+p
+
+      DWew8Xyv2DPCZBzrtn4ML+l0v0jlt1voj02wY7+BCb5/mUoNqrDWcAz1AoGBANQ1
+
+      ZpcLuiFfmW66/A4AIAlOUr76BHvHqhKGt7y26kxCy6XoDLhUPv9liX5Dibgqu+gK
+
+      7CzamE7UOeKCnGknpPZJhTn6g3V9NsMDHphA2LW5XKaReJS7KkT3331cUIrLWCf/
+
+      Y72kl19js25mtrgf0T6Fd0rQJU3XuSj5OPIE9kQBAoGAUoRIuEOi41cXwl9nuRGa
+
+      8Lagf96pxuiJ0S/JuH6jfJ57shctwNH5HbmH0Wk1qdl9SadUQL0Z+R31wVd3vQkm
+
+      GZkreXN4eNJYd9KIJ+XqmzkhDE0f1Z0asfldvu7oCwUv14NxFk+Ej3HZGxFobb+u
+
+      Z5lA1lQvEpMrUCB1I4dpliUCgYB7pWnTVMftLjDObjDzT2tbQMHB+Renr90O0mQ4
+
+      lzPJn5ndX2oZ9SyHz3fflCaoom2+dK7MK8pXFB1uN8A/HRRnVMtFzwvN51mDI0wu
+
+      VopuyESN4XEq6Ctm6C7WcnWTiYwiMhLBqydwMz2XdE2+1vsqvMWXV9SEmM+Qajad
+
+      /fooAQKBgQCXsX85d/rNFNuUM2qBme3v64/7zVhKhjq2EI95zhcoBYR3p/TdxONw
+
+      Vb06WBR9NiAmENDBiDghxNmqW0Rruh63Y+X4p+d4AP83n0gRPNX1J8n5+BwVveSN
+
+      KXk4YSXNjJuPQ2NQMiqIEbkVVZaNbhlDmNcpqYqfwgyj0vX0iCjBCQ==
+
+      -----END RSA PRIVATE KEY-----'
+    apiurl: 172.17.0.1
+    enabled: true
+    images_location: /var/lib/libvirt/images
+    provider: libvirt
+    ssh_port: 22
+    title: KVM (libvirt)
+  4wy9cvroNfeLgAfDid8cDBBAH9PJ:
+    apikey: ''
+    apisecret: ''
+    apiurl: 172.17.0.1
+    ca_cert_file: ''
+    cert_file: ''
+    docker_port: 4243
+    enabled: true
+    key_file: ''
+    provider: docker
+    title: Docker
+email: ''
+keypairs:
+  root_on_host:
+    default: true
+    machines:
+    - - 2zMD9RUvGcLrPzpn85R18mSSQfh6
+      - 172.17.0.1
+      - 1465195114.329381
+      - root
+      - null
+      - 22
+    private: '-----BEGIN RSA PRIVATE KEY-----
+
+      MIIEpAIBAAKCAQEAtfR03+C5A+7PbqQ4GFJt+xsymPMvYRC0O/B6vtfiiEOTsYkK
+
+      ahf2CtbGmlyQYBrY5QvgOP2PmJ7/UbtuhSH9jVnz6qqjbh8CeMlkelUYhhCyhunV
+
+      5LCsQKN6kpIUAsMJXxW0F1lyfN7mqL0Z9O34Izieg7rbLoI5KhRh4M91Xa8Lv3dN
+
+      d/j9Bzy+OOw7m/0LOg3poxMw6Hll0Rcfn6ZVTE+yVR4X7eS93PqSYoDBQNcPO0AO
+
+      gP4aQKnXzznW6ghP0jnYtd1qWwxJ3b1hLo7VHmVVX0WqhaFZPxDFwKhw4EXI0n6s
+
+      w1ycb0MU8e4FrM7o/SeWvKxo1jTPu0sg4U8g9QIDAQABAoIBAQCof3LkB+UNwU8S
+
+      tLzFuT/j8/HNNhbAGontn+rrZFyBt6LEG5YrXXkZ3H8aX3HLrdEBexfvbtBVk5f5
+
+      Bkt4ultlVNHOlKq3xbuyQz3rE3acYEYTLeRH3VwGl91gcipZzGeXSC/4F3swK/MK
+
+      e+PXr6/EXiBc+OMUlL9/OlTRrQyQ7YN3hzgnmMZVUSq8lfxykqRfYUaFol7LdJfh
+
+      dWWSQXCkCFTMOP+UxW+DMFm6pUOpwytIOVEx26aVu7Oww4SHVPlN3JNYMrleE8Tp
+
+      gOWkym2O6IZHpS6lDokmsnlf84kdaf9efuM/RE2eMeMm6e7KSPFeFoNK31KSpekX
+
+      n2dS7aABAoGBANuAzsi8EOfcnr8Jt2oNfMmOxdjxQG3q/0e5X0wzNL8rx6/6gxIL
+
+      zanYd+ZTDhc0VHK4v7ELHYCA1cufNbc182n9XzJ/w/GbU2jIFiMUkZvZmR/Zjh+p
+
+      DWew8Xyv2DPCZBzrtn4ML+l0v0jlt1voj02wY7+BCb5/mUoNqrDWcAz1AoGBANQ1
+
+      ZpcLuiFfmW66/A4AIAlOUr76BHvHqhKGt7y26kxCy6XoDLhUPv9liX5Dibgqu+gK
+
+      7CzamE7UOeKCnGknpPZJhTn6g3V9NsMDHphA2LW5XKaReJS7KkT3331cUIrLWCf/
+
+      Y72kl19js25mtrgf0T6Fd0rQJU3XuSj5OPIE9kQBAoGAUoRIuEOi41cXwl9nuRGa
+
+      8Lagf96pxuiJ0S/JuH6jfJ57shctwNH5HbmH0Wk1qdl9SadUQL0Z+R31wVd3vQkm
+
+      GZkreXN4eNJYd9KIJ+XqmzkhDE0f1Z0asfldvu7oCwUv14NxFk+Ej3HZGxFobb+u
+
+      Z5lA1lQvEpMrUCB1I4dpliUCgYB7pWnTVMftLjDObjDzT2tbQMHB+Renr90O0mQ4
+
+      lzPJn5ndX2oZ9SyHz3fflCaoom2+dK7MK8pXFB1uN8A/HRRnVMtFzwvN51mDI0wu
+
+      VopuyESN4XEq6Ctm6C7WcnWTiYwiMhLBqydwMz2XdE2+1vsqvMWXV9SEmM+Qajad
+
+      /fooAQKBgQCXsX85d/rNFNuUM2qBme3v64/7zVhKhjq2EI95zhcoBYR3p/TdxONw
+
+      Vb06WBR9NiAmENDBiDghxNmqW0Rruh63Y+X4p+d4AP83n0gRPNX1J8n5+BwVveSN
+
+      KXk4YSXNjJuPQ2NQMiqIEbkVVZaNbhlDmNcpqYqfwgyj0vX0iCjBCQ==
+
+      -----END RSA PRIVATE KEY-----'
+    public: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC19HTf4LkD7s9upDgYUm37GzKY8y9hELQ78Hq+1+KIQ5OxiQpqF/YK1saaXJBgGtjlC+A4/Y+Ynv9Ru26FIf2NWfPqqqNuHwJ4yWR6VRiGELKG6dXksKxAo3qSkhQCwwlfFbQXWXJ83uaovRn07fgjOJ6DutsugjkqFGHgz3Vdrwu/d013+P0HPL447Dub/Qs6DemjEzDoeWXRFx+fplVMT7JVHhft5L3c+pJigMFA1w87QA6A/hpAqdfPOdbqCE/SOdi13WpbDEndvWEujtUeZVVfRaqFoVk/EMXAqHDgRcjSfqzDXJxvQxTx7gWszuj9J5a8rGjWNM+7SyDhTyD1
+mist_api_token: ''
